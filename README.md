@@ -1,5 +1,7 @@
 # GetLawED — Verified South African Law (MCP server)
 
+[![mcptry](https://mcptry.com/badge/za.co.getlawed/sa-law)](https://mcptry.com/servers/za.co.getlawed/sa-law)
+
 Search official South African law, quote the exact section and check case citations — from Claude, ChatGPT or any MCP client.
 
 **Server URL (Streamable HTTP):** `https://getlawed.co.za/api/mcp/law`
