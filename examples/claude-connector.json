@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "getlawed": {
+      "url": "https://getlawed.co.za/api/mcp/law",
+      "headers": { "Authorization": "Bearer glw_YOUR_KEY_OPTIONAL" }
+    }
+  }
+}

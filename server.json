@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "za.co.getlawed/sa-law",
+  "title": "GetLawED \u2014 Verified South African Law",
+  "description": "Search official South African law, quote the exact section and check case citations.",
+  "version": "1.1.2",
+  "websiteUrl": "https://getlawed.co.za/law/developers/",
+  "icons": [
+    {
+      "src": "https://getlawed.co.za/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://getlawed.co.za/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ],
+      "theme": "light"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getlawed.co.za/api/mcp/law",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: Bearer glw_\u2026 key from https://getlawed.co.za/law/access.html (free tier works without it)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Getkonnekted-AI/getlawed-mcp",
+    "source": "github"
+  }
+}
