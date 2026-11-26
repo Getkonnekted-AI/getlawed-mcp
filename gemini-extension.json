@@ -1,0 +1,11 @@
+{
+  "name": "getlawed-sa-law",
+  "version": "1.1.3",
+  "description": "Verified South African law: judgments, Acts by section, regulations, municipal by-laws and zoning schemes; citation checks; find a law firm",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "getlawed-sa-law": {
+      "httpUrl": "https://getlawed.co.za/api/mcp/law"
+    }
+  }
+}
