@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "za.co.getlawed/sa-law",
-  "title": "GetLawED \u2014 Verified South African Law",
-  "description": "Search official South African law, quote the exact section and check case citations.",
-  "version": "1.1.2",
+  "title": "GetLawED — Verified South African Law",
+  "description": "South African legal research: official judgments, Acts, by-laws; quote sections, check citations",
+  "version": "1.1.3",
   "websiteUrl": "https://getlawed.co.za/law/developers/",
   "icons": [
     {
@@ -30,7 +30,7 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Optional: Bearer glw_\u2026 key from https://getlawed.co.za/law/access.html (free tier works without it)",
+          "description": "Optional: Bearer glw_… key from https://getlawed.co.za/law/access.html (free tier works without it)",
           "isRequired": false,
           "isSecret": true
         }
